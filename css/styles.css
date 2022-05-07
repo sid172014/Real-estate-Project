@@ -22,6 +22,7 @@ h1 span:nth-child(1){
 	margin-right: 2px;
 	border-radius: 10px;
 }
+
 #estate{
 	color: white;
 }
@@ -53,11 +54,9 @@ h1 span:nth-child(1){
 
 
 /* Main content of the webpage starts from here */
-.home{
-	background: url('../images/backgroundImage1.jpeg') no-repeat;
-	min-height: 100vh;	
-	background-size: cover;
-}
+
+
+
 #main-content{
 	padding: 0;
 	margin-right: 0px;
@@ -291,22 +290,9 @@ select{
 
 /* Main content 4 */
 
-.blur{
-	background: url('../images/house10.jpeg') no-repeat;
-	min-height: 120vh;
-	max-width: 100vw;	
-	background-size: cover;
-	margin-top: -20px;
-	border-top: solid 5px white;
-	filter: blur(3px);
-}
-.home4{
-	position: absolute;
-	top: 370%;
-	min-height: 100vh;
-	width: 100%;
 
-}
+
+
 .home4 h1{
 	color: white;
 	font-size: 4em;
@@ -421,4 +407,181 @@ select{
 }
 .panel-footer{
 	padding: 0px;
+}
+
+
+
+
+/*Media Queries*/
+@media (min-width: 992px) and (max-width: 1199px){
+	.home{background: url('../images/backgroundImage1.jpeg') no-repeat;
+	min-height: 100vh;	
+	background-size: cover;
+	}
+	
+	.blur{
+	background: url('../images/house10.jpeg') no-repeat;
+	min-height: 130vh;
+	max-width: 100vw;	
+	background-size: cover;
+	margin-top: -20px;
+	border-top: solid 5px white;
+	filter: blur(3px);
+	}
+	
+	.home4{
+	position: absolute;
+	top: 450%;
+	min-height: 50vh;
+	width: 100%;
+	}	
+	.home3{
+	background: url('../images/backgroundImage3.jpeg') no-repeat;
+	min-height: 240vh;
+	max-width: 100vw;	
+	background-size: cover;
+	position: relative;
+	top: -20px;
+	border-top: solid 5px white;
+	}
+}
+
+
+@media (min-width: 1200px){
+.home{
+	background: url('../images/backgroundImage1.jpeg') no-repeat;
+	min-height: 100vh;	
+	background-size: cover;
+}
+.home4{
+	position: absolute;
+	top: 370%;
+	min-height: 50vh;
+	width: 100%;
+}
+.blur{
+	background: url('../images/house10.jpeg') no-repeat;
+	min-height: 130vh;
+	max-width: 100vw;	
+	background-size: cover;
+	margin-top: -20px;
+	border-top: solid 5px white;
+	filter: blur(3px);
+}	
+.home3{
+	background: url('../images/backgroundImage3.jpeg') no-repeat;
+	min-height: 155vh;
+	max-width: 100vw;	
+	background-size: cover;
+	position: relative;
+	top: -20px;
+	border-top: solid 5px white;
+}
+}
+
+@media (min-width: 768px) and (max-width: 961px){
+	.home{
+		background: url('../images/backgroundImage1.jpeg') no-repeat;
+	min-height: 100vh;	
+	background-size: cover;
+	}
+	.col-lg-6 div{
+	 background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 70vh;
+    overflow: hidden;
+    border: solid 4px white;
+	}
+	.home3{
+	background: url('../images/backgroundImage3.jpeg') no-repeat;
+	min-height: 240vh;
+	max-width: 100vw;	
+	background-size: cover;
+	position: relative;
+	top: -20px;
+	border-top: solid 5px white;
+	}
+	.blur{
+	background: url('../images/house10.jpeg') no-repeat;
+	min-height: 140vh;
+	max-width: 100vw;	
+	background-size: cover;
+	margin-top: -20px;
+	border-top: solid 5px white;
+	filter: blur(3px);
+	}	
+	.home4{
+	position: absolute;
+	top: 455%;
+	min-height: 50vh;
+	width: 100%;
+	}
+
+}
+@media (max-width: 767px){
+	.home{
+		background: url('../images/backgroundImage1.jpeg') no-repeat;
+	min-height: 100vh;	
+	background-size: cover;
+	}
+	.home .row{
+		margin-top: 50px;
+	}
+	.home .row section:nth-child(6){
+		padding-right: 25px;
+	}
+	.home .row section:nth-child(5){
+		padding-right: 25px;
+	}
+	.home>section {
+    width: 70%;
+    height: 600px;
+    background-color: #b4bdc9;
+    box-shadow: darkred;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 120px;
+    box-shadow: 0px 4px 4px 4px grey;
+	}
+	.home section div{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.col-lg-6 div{
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+	.home2 .row{
+		margin-top: 40px;
+	}
+	.home3{
+	background: url('../images/backgroundImage3.jpeg') no-repeat;
+	min-height: 420vh;
+	max-width: 100vw;	
+	background-size: cover;
+	position: relative;
+	top: -20px;
+	border-top: solid 5px white;
+	}
+
+	.blur{
+	background: url('../images/house10.jpeg') no-repeat;
+	min-height: 315vh;
+	max-width: 100vw;	
+	background-size: cover;
+	margin-top: -20px;
+	border-top: solid 5px white;
+	filter: blur(3px);
+	}
+	.home4{
+	position: absolute;
+	top: 660%;
+	min-height: 50vh;
+	width: 100%;
+	}
+	.col-xs-12{
+		margin-bottom: 40px;
+	}
 }
